@@ -6,7 +6,7 @@ int main() {
 	std::cin >> x;
 
 	if (x < 0) {
-		std::cout << "ìèíóñ ";
+		std::cout << "Ğ¼Ğ¸Ğ½ÑƒÑ ";
 		x = x * -1;
 	}
 	s = x % 1000;
@@ -21,34 +21,34 @@ int main() {
 	switch (m)
 	{
 	case 1:
-		std::cout << "îäèí ìèëëèîí ";
+		std::cout << "Ğ¾Ğ´Ğ¸Ğ½ Ğ¼Ğ¸Ğ»Ğ»Ğ¸Ğ¾Ğ½ ";
 		break;
 	case 2:
-		std::cout << "äâà ìèëëèîíà ";
+		std::cout << "Ğ´Ğ²Ğ° Ğ¼Ğ¸Ğ»Ğ»Ğ¸Ğ¾Ğ½Ğ° ";
 		break;
 	case 3:
-		std::cout << "òğè ìèëëèîíà ";
+		std::cout << "Ñ‚Ñ€Ğ¸ Ğ¼Ğ¸Ğ»Ğ»Ğ¸Ğ¾Ğ½Ğ° ";
 		break;
 	case 4:
-		std::cout << "÷åòûğå ìèëëèîíà ";
+		std::cout << "Ñ‡ĞµÑ‚Ñ‹Ñ€Ğµ Ğ¼Ğ¸Ğ»Ğ»Ğ¸Ğ¾Ğ½Ğ° ";
 		break;
 	case 5:
-		std::cout << "ïÿòü ìèëëèîíîâ ";
+		std::cout << "Ğ¿ÑÑ‚ÑŒ Ğ¼Ğ¸Ğ»Ğ»Ğ¸Ğ¾Ğ½Ğ¾Ğ² ";
 		break;
 	case 6:
-		std::cout << "øåñòü ìèëëèîíîâ ";
+		std::cout << "ÑˆĞµÑÑ‚ÑŒ Ğ¼Ğ¸Ğ»Ğ»Ğ¸Ğ¾Ğ½Ğ¾Ğ² ";
 		break;
 	case 7:
-		std::cout << "ñåìü ìèëëèîíîâ ";
+		std::cout << "ÑĞµĞ¼ÑŒ Ğ¼Ğ¸Ğ»Ğ»Ğ¸Ğ¾Ğ½Ğ¾Ğ² ";
 		break;
 	case 8:
-		std::cout << "âîñåìü ìèëëèîíîâ ";
+		std::cout << "Ğ²Ğ¾ÑĞµĞ¼ÑŒ Ğ¼Ğ¸Ğ»Ğ»Ğ¸Ğ¾Ğ½Ğ¾Ğ² ";
 		break;
 	case 9:
-		std::cout << "äåâÿèò ìèëëèîíîâ ";
+		std::cout << "Ğ´ĞµĞ²ÑĞ¸Ñ‚ Ğ¼Ğ¸Ğ»Ğ»Ğ¸Ğ¾Ğ½Ğ¾Ğ² ";
 		break;
 	case 10:
-		std::cout << "äåñÿòü ìèëëèîíîâ ";
+		std::cout << "Ğ´ĞµÑÑÑ‚ÑŒ Ğ¼Ğ¸Ğ»Ğ»Ğ¸Ğ¾Ğ½Ğ¾Ğ² ";
 		break;
 	}
 
@@ -56,31 +56,31 @@ int main() {
 	switch (x)
 	{
 	case 1:
-		std::cout << "ñòî ";
+		std::cout << "ÑÑ‚Ğ¾ ";
 		break;
 	case 2:
-		std::cout << "äâåñòè ";
+		std::cout << "Ğ´Ğ²ĞµÑÑ‚Ğ¸ ";
 		break;
 	case 3:
-		std::cout << "òğèñòà ";
+		std::cout << "Ñ‚Ñ€Ğ¸ÑÑ‚Ğ° ";
 		break;
 	case 4:
-		std::cout << "÷åòûğèñòà ";
+		std::cout << "Ñ‡ĞµÑ‚Ñ‹Ñ€Ğ¸ÑÑ‚Ğ° ";
 		break;
 	case 5:
-		std::cout << "ïÿòüñîò ";
+		std::cout << "Ğ¿ÑÑ‚ÑŒÑĞ¾Ñ‚ ";
 		break;
 	case 6:
-		std::cout << "øåñòüñîò ";
+		std::cout << "ÑˆĞµÑÑ‚ÑŒÑĞ¾Ñ‚ ";
 		break;
 	case 7:
-		std::cout << "ñåìüñîò ";
+		std::cout << "ÑĞµĞ¼ÑŒÑĞ¾Ñ‚ ";
 		break;
 	case 8:
-		std::cout << "âîñåìüñîò ";
+		std::cout << "Ğ²Ğ¾ÑĞµĞ¼ÑŒÑĞ¾Ñ‚ ";
 		break;
 	case 9:
-		std::cout << "äåâÿòüñîò ";
+		std::cout << "Ğ´ĞµĞ²ÑÑ‚ÑŒÑĞ¾Ñ‚ ";
 		break;
 	}
 
@@ -89,31 +89,31 @@ int main() {
 		switch (x)
 		{
 		case 1:
-			std::cout << "îäèííàäöàòü ";
+			std::cout << "Ğ¾Ğ´Ğ¸Ğ½Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ ";
 			break;
 		case 2:
-			std::cout << "äâåíàäöàòü ";
+			std::cout << "Ğ´Ğ²ĞµĞ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ ";
 			break;
 		case 3:
-			std::cout << "òğèíàäöàòü ";
+			std::cout << "Ñ‚Ñ€Ğ¸Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ ";
 			break;
 		case 4:
-			std::cout << "÷åòûğíàäöàòü ";
+			std::cout << "Ñ‡ĞµÑ‚Ñ‹Ñ€Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ ";
 			break;
 		case 5:
-			std::cout << "ïÿòíàäöàòü ";
+			std::cout << "Ğ¿ÑÑ‚Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ ";
 			break;
 		case 6:
-			std::cout << "øåñòíàäöàòü ";
+			std::cout << "ÑˆĞµÑÑ‚Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ ";
 			break;
 		case 7:
-			std::cout << "ñåìíàäöàòü ";
+			std::cout << "ÑĞµĞ¼Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ ";
 			break;
 		case 8:
-			std::cout << "âîñåìíàäöàòü ";
+			std::cout << "Ğ²Ğ¾ÑĞµĞ¼Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ ";
 			break;
 		case 9:
-			std::cout << "äåâÿòíàäöàòü ";
+			std::cout << "Ğ´ĞµĞ²ÑÑ‚Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ ";
 			break;
 		}
 	}
@@ -122,31 +122,31 @@ int main() {
 		switch (x)
 		{
 		case 1:
-			std::cout << "äåñÿòü ";
+			std::cout << "Ğ´ĞµÑÑÑ‚ÑŒ ";
 			break;
 		case 2:
-			std::cout << "äâàäöàòü ";
+			std::cout << "Ğ´Ğ²Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ ";
 			break;
 		case 3:
-			std::cout << "òğèäöàòü ";
+			std::cout << "Ñ‚Ñ€Ğ¸Ğ´Ñ†Ğ°Ñ‚ÑŒ ";
 			break;
 		case 4:
-			std::cout << "ñîğîê ";
+			std::cout << "ÑĞ¾Ñ€Ğ¾Ğº ";
 			break;
 		case 5:
-			std::cout << "ïÿòüäåñÿò ";
+			std::cout << "Ğ¿ÑÑ‚ÑŒĞ´ĞµÑÑÑ‚ ";
 			break;
 		case 6:
-			std::cout << "øåñòüäåñÿò ";
+			std::cout << "ÑˆĞµÑÑ‚ÑŒĞ´ĞµÑÑÑ‚ ";
 			break;
 		case 7:
-			std::cout << "ñåìüäåñÿò ";
+			std::cout << "ÑĞµĞ¼ÑŒĞ´ĞµÑÑÑ‚ ";
 			break;
 		case 8:
-			std::cout << "âîñåìüäåñÿò ";
+			std::cout << "Ğ²Ğ¾ÑĞµĞ¼ÑŒĞ´ĞµÑÑÑ‚ ";
 			break;
 		case 9:
-			std::cout << "äåâÿíîñòî ";
+			std::cout << "Ğ´ĞµĞ²ÑĞ½Ğ¾ÑÑ‚Ğ¾ ";
 			break;
 		}
 
@@ -154,67 +154,67 @@ int main() {
 		switch (x)
 		{
 		case 1:
-			std::cout << "îäèí ";
+			std::cout << "Ğ¾Ğ´Ğ¸Ğ½ ";
 			break;
 		case 2:
-			std::cout << "äâà ";
+			std::cout << "Ğ´Ğ²Ğ° ";
 			break;
 		case 3:
-			std::cout << "òğè ";
+			std::cout << "Ñ‚Ñ€Ğ¸ ";
 			break;
 		case 4:
-			std::cout << "÷åòûğå ";
+			std::cout << "Ñ‡ĞµÑ‚Ñ‹Ñ€Ğµ ";
 			break;
 		case 5:
-			std::cout << "ïÿòü ";
+			std::cout << "Ğ¿ÑÑ‚ÑŒ ";
 			break;
 		case 6:
-			std::cout << "øåñòü ";
+			std::cout << "ÑˆĞµÑÑ‚ÑŒ ";
 			break;
 		case 7:
-			std::cout << "ñåìü ";
+			std::cout << "ÑĞµĞ¼ÑŒ ";
 			break;
 		case 8:
-			std::cout << "âîñåìü ";
+			std::cout << "Ğ²Ğ¾ÑĞµĞ¼ÑŒ ";
 			break;
 		case 9:
-			std::cout << "äåâÿòü ";
+			std::cout << "Ğ´ĞµĞ²ÑÑ‚ÑŒ ";
 			break;
 		}
 	}
 	if (t > 0) {
-		std::cout << "òûñÿ÷ ";
+		std::cout << "Ñ‚Ñ‹ÑÑÑ‡ ";
 	}
 
 	x = s / 100;
 	switch (x)
 	{
 	case 1:
-		std::cout << "ñòî ";
+		std::cout << "ÑÑ‚Ğ¾ ";
 		break;
 	case 2:
-		std::cout << "äâåñòè ";
+		std::cout << "Ğ´Ğ²ĞµÑÑ‚Ğ¸ ";
 		break;
 	case 3:
-		std::cout << "òğèñòà ";
+		std::cout << "Ñ‚Ñ€Ğ¸ÑÑ‚Ğ° ";
 		break;
 	case 4:
-		std::cout << "÷åòûğèñòà ";
+		std::cout << "Ñ‡ĞµÑ‚Ñ‹Ñ€Ğ¸ÑÑ‚Ğ° ";
 		break;
 	case 5:
-		std::cout << "ïÿòüñîò ";
+		std::cout << "Ğ¿ÑÑ‚ÑŒÑĞ¾Ñ‚ ";
 		break;
 	case 6:
-		std::cout << "øåñòüñîò ";
+		std::cout << "ÑˆĞµÑÑ‚ÑŒÑĞ¾Ñ‚ ";
 		break;
 	case 7:
-		std::cout << "ñåìüñîò ";
+		std::cout << "ÑĞµĞ¼ÑŒÑĞ¾Ñ‚ ";
 		break;
 	case 8:
-		std::cout << "âîñåìüñîò ";
+		std::cout << "Ğ²Ğ¾ÑĞµĞ¼ÑŒÑĞ¾Ñ‚ ";
 		break;
 	case 9:
-		std::cout << "äåâÿòüñîò ";
+		std::cout << "Ğ´ĞµĞ²ÑÑ‚ÑŒÑĞ¾Ñ‚ ";
 		break;
 	}
 
@@ -223,31 +223,31 @@ int main() {
 		switch (x)
 		{
 		case 1:
-			std::cout << "îäèííàäöàòü ";
+			std::cout << "Ğ¾Ğ´Ğ¸Ğ½Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ ";
 			break;
 		case 2:
-			std::cout << "äâåíàäöàòü ";
+			std::cout << "Ğ´Ğ²ĞµĞ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ ";
 			break;
 		case 3:
-			std::cout << "òğèíàäöàòü ";
+			std::cout << "Ñ‚Ñ€Ğ¸Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ ";
 			break;
 		case 4:
-			std::cout << "÷åòûğíàäöàòü ";
+			std::cout << "Ñ‡ĞµÑ‚Ñ‹Ñ€Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ ";
 			break;
 		case 5:
-			std::cout << "ïÿòíàäöàòü ";
+			std::cout << "Ğ¿ÑÑ‚Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ ";
 			break;
 		case 6:
-			std::cout << "øåñòíàäöàòü ";
+			std::cout << "ÑˆĞµÑÑ‚Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ ";
 			break;
 		case 7:
-			std::cout << "ñåìíàäöàòü ";
+			std::cout << "ÑĞµĞ¼Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ ";
 			break;
 		case 8:
-			std::cout << "âîñåìíàäöàòü ";
+			std::cout << "Ğ²Ğ¾ÑĞµĞ¼Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ ";
 			break;
 		case 9:
-			std::cout << "äåâÿòíàäöàòü ";
+			std::cout << "Ğ´ĞµĞ²ÑÑ‚Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ ";
 			break;
 		}
 	}
@@ -256,31 +256,31 @@ int main() {
 		switch (x)
 		{
 		case 1:
-			std::cout << "äåñÿòü ";
+			std::cout << "Ğ´ĞµÑÑÑ‚ÑŒ ";
 			break;
 		case 2:
-			std::cout << "äâàäöàòü ";
+			std::cout << "Ğ´Ğ²Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ ";
 			break;
 		case 3:
-			std::cout << "òğèäöàòü ";
+			std::cout << "Ñ‚Ñ€Ğ¸Ğ´Ñ†Ğ°Ñ‚ÑŒ ";
 			break;
 		case 4:
-			std::cout << "ñîğîê ";
+			std::cout << "ÑĞ¾Ñ€Ğ¾Ğº ";
 			break;
 		case 5:
-			std::cout << "ïÿòüäåñÿò ";
+			std::cout << "Ğ¿ÑÑ‚ÑŒĞ´ĞµÑÑÑ‚ ";
 			break;
 		case 6:
-			std::cout << "øåñòüäåñÿò ";
+			std::cout << "ÑˆĞµÑÑ‚ÑŒĞ´ĞµÑÑÑ‚ ";
 			break;
 		case 7:
-			std::cout << "ñåìüäåñÿò ";
+			std::cout << "ÑĞµĞ¼ÑŒĞ´ĞµÑÑÑ‚ ";
 			break;
 		case 8:
-			std::cout << "âîñåìüäåñÿò ";
+			std::cout << "Ğ²Ğ¾ÑĞµĞ¼ÑŒĞ´ĞµÑÑÑ‚ ";
 			break;
 		case 9:
-			std::cout << "äåâÿíîñòî ";
+			std::cout << "Ğ´ĞµĞ²ÑĞ½Ğ¾ÑÑ‚Ğ¾ ";
 			break;
 		}
 
@@ -288,36 +288,36 @@ int main() {
 		switch (x)
 		{
 		case 1:
-			std::cout << "îäèí ";
+			std::cout << "Ğ¾Ğ´Ğ¸Ğ½ ";
 			break;
 		case 2:
-			std::cout << "äâà ";
+			std::cout << "Ğ´Ğ²Ğ° ";
 			break;
 		case 3:
-			std::cout << "òğè ";
+			std::cout << "Ñ‚Ñ€Ğ¸ ";
 			break;
 		case 4:
-			std::cout << "÷åòûğå ";
+			std::cout << "Ñ‡ĞµÑ‚Ñ‹Ñ€Ğµ ";
 			break;
 		case 5:
-			std::cout << "ïÿòü ";
+			std::cout << "Ğ¿ÑÑ‚ÑŒ ";
 			break;
 		case 6:
-			std::cout << "øåñòü ";
+			std::cout << "ÑˆĞµÑÑ‚ÑŒ ";
 			break;
 		case 7:
-			std::cout << "ñåìü ";
+			std::cout << "ÑĞµĞ¼ÑŒ ";
 			break;
 		case 8:
-			std::cout << "âîñåìü ";
+			std::cout << "Ğ²Ğ¾ÑĞµĞ¼ÑŒ ";
 			break;
 		case 9:
-			std::cout << "äåâÿòü ";
+			std::cout << "Ğ´ĞµĞ²ÑÑ‚ÑŒ ";
 			break;
 		}
 	}
 	if (s + m + t == 0)
-		std::cout << "íîëü";
+		std::cout << "Ğ½Ğ¾Ğ»ÑŒ";
 
 	return 0;
 }
