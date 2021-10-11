@@ -8,7 +8,7 @@ int main()
     setlocale(LC_ALL, "Rus");
     srand(time(NULL));
 
-    cout << "Выпало: " << rand() % 6 + 1 << " è " << rand() % 6 + 1 << endl;
+    cout << "Выпало: " << rand() % 6 + 1 << " и " << rand() % 6 + 1 << endl;
 
     return 0;
 }
