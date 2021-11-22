@@ -83,7 +83,7 @@ void sort_bubble(double* A, int size, comparator cmp)
 template <typename T>
 void fill_array(T* A, int size)
 {
-    cout << "Ââåäèòå çíà÷åíèÿ ìàññèâà ";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ñ Ð¼Ð°ÑÑÐ¸Ð²Ð° ";
     while (size-- > 0)
         cin >> *(A++);
 }
@@ -92,7 +92,7 @@ int main()
 {
     setlocale(LC_ALL, "ru");
     int size;
-    cout << "Ââåäèòå ðàçìåð ìàññèâà ";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ð¼Ð°ÑÑÐ¸Ð²Ð° ";
     cin >> size;
     double* A = new double[size];
     comparator my = check_items_double;
