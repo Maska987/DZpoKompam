@@ -1,51 +1,89 @@
 #include <iostream>
-#include <ctime>
 
 using namespace std;
 
-void a_progr(int* array, int size, int a, int d)
+void print_array(int array[], const int size)
 {
-	for (int i = 0; i < size; i++)
-		*(array++) = a + d * i;
+    for (int i = 0; i < size; i++)
+        cout << array[i] << " ";
+    
+    cout << endl;
 }
 
-void rand_per(int* array, int size)
+void arithm_prog(int* arr, const int size, int a, int d)
 {
-	for (int i = 0; i < size; i++)
-	{
-		array[i] = 1 + rand() % size;
-		for (int o = 0; o < i; o++)
-			if (array[o] == array[i])
-				i = i - 1;
-
-	}
+    for (int i = 0; i < 10; i++)
+        *(arr++) = a + d * i;
 }
 
-void print_array(int array[], int size)
+void rnd_perm(int* arr, const int size)
 {
-	for (int i = 0; i < size; i++)
-		cout << array[i] << " ";
-	cout << endl;
+    for (int i = 0; i < size; i++)
+    {
+        // случ int
+        arr[i] = 1 + rand() % size;
+        
+        for (int j = 0; j < i; j++)
+            if (arr[j] == arr[i])
+            {
+                i--;
+                break;
+            }
+    }
+}
+
+void rnd_arr(int* arr, const int size)
+{
+    for (int i = 0; i < size; i++)
+        *(arr++) = -1000 + rand() % 2001;
 }
 
 int main()
 {
-	srand(time(NULL));
-	setlocale(LC_ALL, "ru");
-	int size;
-	cout << "Введите размер массива: ";
-	cin >> size;
-	int* array = new int[size];
+    setlocale(LC_ALL, "Rus");
+    srand(time(NULL));
+    const int size = 10;
+    int* arr = new int[size];
 
-	int a, d;
-	cout << "Введите первый эллемент арифметической прогрессии: ";
-	cin >> a;
-	cout << "Введите разность: ";
-	cin >> d;
-	a_progr(array, size, a, d);
-	print_array(array, size);
 
-	cout << "Случайная перестановка: ";
-	rand_per(array, size);
-	print_array(array, size);
+
+    // Задание1
+    int a, d;
+    cout << "1. Введите a1, d = ";
+    cin >> a >> d;
+    cout << "Арифметическая прогрессия: ";
+    arithm_prog(arr, size, a, d);
+    print_array(arr, size);
+
+
+
+    // Задание 2
+    cout << endl << "2. Случайная перестановка: ";
+    rnd_perm(arr, size);
+    print_array(arr, size);
+
+
+
+    // Задание 3
+    rnd_arr(arr, size);
+    cout << endl << "3. Случ. числа: ";
+    print_array(arr, size);
+
+    int even_count = 0;
+
+    for (int i = 0; i < size; i++)
+    {
+        int ab = arr[i] % 100, b = arr[i] % 10;
+        
+        if (ab - b == 20)
+            even_count++;
+    }
+
+    cout << "Кол-во чисел с предпоследней цифрой 2: ";
+    cout << even_count;
+
+
+
+    cout << endl << endl;
+    return 0;
 }
